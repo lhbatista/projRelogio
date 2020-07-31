@@ -1,8 +1,9 @@
 public class AppRelogio {
     public static void main(String[] args) {
-        Relogio r1;
 
-        r1.getHora();
+        Relogio relogio = new Relogio(5, 37, 55); // objeto criado
+
+        System.out.println(relogio.getHora());
     }
-    
+
 }
